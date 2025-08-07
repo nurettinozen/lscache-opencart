@@ -302,6 +302,7 @@ class ControllerExtensionModuleLSCache extends Controller {
         }
         
         //clear template cache file
+        /*
         try{
             $template = new Template($this->registry->get('config')->get('template_engine'));
             $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
@@ -313,7 +314,7 @@ class ControllerExtensionModuleLSCache extends Controller {
             unlink($key);
         } catch (Exception $ex){
         }        
-        
+        */
 	}
     
     
